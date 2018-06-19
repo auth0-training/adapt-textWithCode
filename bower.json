@@ -1,0 +1,17 @@
+{
+  "name": "adapt-textWithCode",
+  "repository": "git://github.com/CollierCZ/adapt-textWithCode.git",
+  "version": "0.1",
+  "framework": ">=2.1.0",
+  "homepage": "https://github.com/CollierCZ/adapt-textWithCode",
+  "issues": "https://github.com/CollierCZ/adapt-textWithCode/issues",
+  "displayName" : "Text with Code",
+  "component" : "text",
+  "description": "A simple core contributed text component with the added function of highlighting code",
+  "main": "/js/adapt-textWithCode.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}
