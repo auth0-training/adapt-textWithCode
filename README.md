@@ -4,7 +4,7 @@
 
 <img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/text01.png" alt="sample text component">
 
-**Text with Code**'s simple purpose is to present text. The text may include HTML and code wrapped in <pre><code class="language-[language name]"> tags.
+**Text with Code**'s simple purpose is to present text. The text may include HTML and code wrapped in `<pre><code class="language-[language name]">` tags.
 
 ## Installation
 
