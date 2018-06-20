@@ -1,7 +1,7 @@
 {
   "name": "adapt-textWithCode",
   "repository": "git://github.com/CollierCZ/adapt-textWithCode.git",
-  "version": "0.1",
+  "version": "0.4",
   "framework": ">=2.1.0",
   "homepage": "https://github.com/CollierCZ/adapt-textWithCode",
   "issues": "https://github.com/CollierCZ/adapt-textWithCode/issues",
