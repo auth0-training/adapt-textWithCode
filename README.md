@@ -1,4 +1,4 @@
-# adapt-contrib-text  
+# adapt-textWithCode  
 
 **Text with Code** is a *presentation component* bundled with the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
 
@@ -51,6 +51,6 @@ No known limitations.
 
 
 ----------------------------
-**Version number:**  0.1  
+**Version number:**  0.4  
 **Framework versions:** 2+  
 **Author / maintainer:** [Aaron Collier](https://github.com/CollierCZ). Forked in June 2018 from the Text component written by the Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-narrative/graphs/contributors)    
