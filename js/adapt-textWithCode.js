@@ -4,7 +4,7 @@ define([
       'core/js/libraries/prism'
   ], function(Adapt, ComponentView) {
 
-    var Text = ComponentView.extend({
+    var TextWithCode = ComponentView.extend({
 
         preRender: function() {
             this.checkIfResetOnRevisit();
@@ -77,10 +77,10 @@ define([
         }
     },
     {
-        template: 'text'
+        template: 'textWithCode'
     });
 
-    Adapt.register('text', Text);
+    Adapt.register('textWithCode', TextWithCode);
 
-    return Text;
+    return TextWithCode;
 });
