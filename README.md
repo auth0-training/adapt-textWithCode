@@ -30,7 +30,7 @@ The attributes listed below are used in *components.json* to configure **Text wi
 
 **_component** (string): This value must be: `textWithCode`.
 
-**_classes** (string): CSS class name to be applied to **Text**’s containing `div`. The class must be predefined in one of the Less files. Separate multiple classes with a space.
+**_classes** (string): CSS class name to be applied to **Text with Code**’s containing `div`. The class must be predefined in one of the Less files. Separate multiple classes with a space.
 
 **_layout** (string): This defines the horizontal position of the component in the block. Acceptable values are `full`, `left` or `right`.  
 
@@ -41,7 +41,7 @@ The attributes listed below are used in *components.json* to configure **Text wi
 **instruction** (string): This optional text appears above the component. It is frequently used to
 guide the learner’s interaction with the component.
 
-**body** (string): Although optional, this text constitutes what is thought of as the primary *text* of the **Text** component. HTML is permitted.  
+**body** (string): Although optional, this text constitutes what is thought of as the primary *text* of the **Text with Code** component. HTML is permitted and code properly wrapped will be automatically highlighted.  
 <div float align=right><a href="#top">Back to Top</a></div>
 
 ## Limitations
