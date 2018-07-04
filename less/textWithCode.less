@@ -1,1 +1,39 @@
 @import "src/core/less/prism.less";
+@infoBackground: #f7f7f7;
+@ideaColor: #008283;
+@infoColor: #0382c0;
+@warningColor: #f79421;
+
+.text-inner .infobox {
+  display: flex;
+  padding: 1em;
+  background-color: #f7f7f7;
+  border-left-style: solid;
+  border-left-width: 0.5em;
+  margin: 1em 0;
+}
+.text-inner .infobox::before {
+  padding-right: 0.5em;
+  font-family: "vanilla";
+}
+.text-inner .infobox.idea {
+  border-left-color: @ideaColor;
+}
+.text-inner .infobox.idea::before {
+  content:"\e629";
+  color: @ideaColor;
+}
+.text-inner .infobox.info {
+  border-left-color: @infoColor;
+}
+.text-inner .infobox.info::before {
+    content:"\e637";
+    color: @infoColor;
+}
+.text-inner .infobox.warning {
+  border-left-color: @warningColor;
+}
+.text-inner .infobox.warning::before {
+	content: "\e639";
+  color: @warningColor;
+}
