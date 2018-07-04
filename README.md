@@ -3,7 +3,7 @@
 **Text with Code** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
 
 
-**Text with Code**'s simple purpose is to present text. The text may include HTML, code wrapped in `<pre><code class="language-[language name]">` tags, and infoboxes (divs marked with the class "infobox" and "idea", "info", or "warning").
+**Text with Code**'s simple purpose is to present text. The text may include HTML, code wrapped in `<pre><code class="language-[language name]">` tags, and infoboxes (divs marked with the class "infobox" and "idea", "note", or "warning").
 
 ## Installation
 

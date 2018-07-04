@@ -1,7 +1,7 @@
 @import "src/core/less/prism.less";
 @infoBackground: #f7f7f7;
 @ideaColor: #008283;
-@infoColor: #0382c0;
+@noteColor: #0382c0;
 @warningColor: #f79421;
 
 .text-inner .infobox {
@@ -39,12 +39,12 @@
   content:"\e629";
   color: @ideaColor;
 }
-.text-inner .infobox.info {
+.text-inner .infobox.note {
   border-left-color: @infoColor;
 }
-.text-inner .infobox.info::before {
+.text-inner .infobox.note::before {
     content:"\e637";
-    color: @infoColor;
+    color: @noteColor;
 }
 .text-inner .infobox.warning {
   border-left-color: @warningColor;
