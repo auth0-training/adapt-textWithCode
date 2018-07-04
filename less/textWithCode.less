@@ -5,17 +5,33 @@
 @warningColor: #f79421;
 
 .text-inner .infobox {
-  display: flex;
+  display: grid;
   padding: 1em;
   background-color: #f7f7f7;
   border-left-style: solid;
   border-left-width: 0.5em;
   margin: 1em 0;
 }
+.infobox * {
+    grid-column: 2;
+}
+.infobox p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.infobox p + p {
+    margin-top: 1em;
+}
+
+
+
+
 .text-inner .infobox::before {
   padding-right: 0.5em;
   font-family: "vanilla";
 }
+
+
 .text-inner .infobox.idea {
   border-left-color: @ideaColor;
 }
