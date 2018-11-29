@@ -50,6 +50,6 @@ No known limitations.
 
 
 ----------------------------
-**Version number:**  0.6.3  
+**Version number:**  1.0.0 
 **Framework versions:** 2+  
 **Author / maintainer:** [Aaron Collier](https://github.com/CollierCZ). Forked in June 2018 from the [Text component](https://github.com/adaptlearning/adapt-contrib-text) written by the Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-text/graphs/contributors)    

@@ -14,6 +14,7 @@ define([
             this.setReadyStatus();
 
             this.setupInview();
+            Prism.highlightAll();
         },
 
         setupInview: function() {
@@ -65,7 +66,6 @@ define([
                     this.setCompletionStatus();
                 }
             };
-            Prism.highlightAll();
         },
 
         remove: function() {
